@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+html {
+    font-size: 62.5%;
+    font-family: 'Inter';
+}
+body {
+margin: 0;
+padding: 0;
+}
+header {
+    height: auto;
+    display: flex;
+    margin: auto;
+    width: 75%;
+    align-items: center;
+    margin-top: 50px;
+}
+.logo {
+    width: 50%;
+}
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.link {
+    padding: 15px 15px 15px 15px;
+    margin-right: 0;
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    font-size: 1.4rem;
+}
+section {
+    margin: auto;
+    margin-top: 30px;
+    width: 75%;
+    display: flex;
+    height: 410px
+}
+.center-left {
+    display: flex;
+    flex-direction: column;
+    width: 66.66%;
+    margin-right: 15px;
+}
+.center-image {
+    width: 100%;
+}
+.imagem-colorida {
+    width: 100%;
+}
+.about {
+    display: flex;
+}
+.about-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    width: 60%;
+    margin-left: 20px;
+    color: hsl(236, 13%, 42%);
+}
+.new-table {
+    width: 33.33%;
+    background-color: hsl(240, 100%, 5%);
+    margin: 0 15px;
+    padding: 0px 20px;
+}
+.new-table h1 {
+    color:hsl(35, 77%, 62%);
+    font-size: 2.5rem;
+}
+.new-table h2 {
+    color:#fff;
+}
+.new-table p {
+    color: hsl(233, 8%, 79%);
+    font-size: 1.3rem;
+}
+.about h1 {
+    margin-right: 10px;
+    font-size: 3.5rem;
+    width: 40%;
+}
+.new {
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    border-bottom: solid 1px hsl(236, 13%, 42%);
+}
+.new2 {
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+.button {
+    width: 50%;
+    height: 20%;
+    margin-top: 8px;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    color: #fff;
+    cursor: pointer;
+}
+.link:hover {
+    background-color: rgb(231, 231, 231);
+}
+.button:hover {
+    background-color: hsl(5, 64%, 52%);
+}
+footer {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.articles {
+    display: flex;
+    width: 33.33%;
+    margin: 0;
+    padding: 0;
+}
+.articles-right {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.article-img {
+    width: 30%;
+    margin-right: 10px;
+}
+.image-article {
+    width: 80px;
+    height: 100.8px;
+}
+.articles-right h1 {
+    color:hsl(233, 8%, 79%);
+    margin: 0;
+    font-size: 2.5rem;
+}
+.articles-right h2 {
+    margin: 0;
+}
+.articles-right p {
+    color: hsl(236, 13%, 42%);
+    margin: 0;
+    font-size: 1.2rem;
+}
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
