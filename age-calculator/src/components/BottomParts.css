@@ -1,0 +1,29 @@
+.bottom-parts {
+    display: flex;
+    margin-bottom: 0;
+    line-height: 90px;
+}
+.bottom-parts h1 {
+    color: hsl(259, 100%, 65%);
+    font-weight: bold;
+    font-size: 8.5rem;
+    letter-spacing: 5px;
+    font-style: italic;
+    margin-right: 10px;
+}
+.bottom-parts h2 {
+    font-weight: bold;
+    font-size: 8.5rem;
+    color: hsl(0, 0%, 8%);
+    font-style: italic;
+}
+
+@media (max-width: 590px){
+    .bottom-parts{
+        line-height: 50px;
+    }
+    .bottom-parts h2, .bottom-parts h1{
+        font-size: 5.5rem;
+        margin: 0px;
+    }
+}
