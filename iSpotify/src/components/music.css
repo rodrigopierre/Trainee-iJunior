@@ -1,0 +1,74 @@
+.music-container {
+    width: 100%;
+    height: 28px;
+    margin-top: 20px;
+    display: flex;
+}
+.index h1 {
+    font-size: 0.7rem;
+    color: white;
+    padding-left: 7px;
+    font-weight: 300;
+}
+.index {
+    width: 1.0%;
+    margin-right: 2.6%;
+}
+.music-title h1 {
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: white;
+    margin: 0;
+    margin-bottom: 2px;
+}
+.music-title h2 {
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: white;
+    margin: 0;
+}
+.music-title {
+    width: 58.5%;
+}
+.album-title h1 {
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: white;
+    margin: 0;
+    padding-left: 2px;
+}
+.album-title {
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+
+.music-icons{
+    display: flex;
+    width: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.music-btn {
+    border: none;
+    background: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.music-btn > .material-symbols-outlined{
+    font-size: 15pt;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fav {
+    color: #1DB954;
+}
+
+.trash-icon{
+    font-size: 14pt;
+}

@@ -1,0 +1,71 @@
+
+
+
+.welcome-class {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111111;
+}
+.welcome-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 375px;
+}
+.welcome-image {
+    width: 60%;
+}
+.welcome-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-title h1{
+    margin-bottom: 0;
+    font-size: 7.0rem;
+}
+.welcome-title p{
+    margin-bottom: 0;
+    font-size: 3.0rem;
+    margin-left: 10px;
+}
+.welcome-left {
+    margin-left: 50px;
+    margin-left: 50px;
+}
+.welcome-right {
+    max-width: 450px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.welcome-right p {
+    font-size: 1.3rem;
+    text-align:left;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    border-bottom: 2px solid green;
+    border-left: 2px solid green;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.welcome-btn {
+    text-decoration: none;
+    width: 300px;
+    border: 1px solid #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-left: 148px;
+    margin-bottom: 36px;
+    font-size: 1.6rem;
+    color: rgb(41, 219, 41);
+}
+.welcome-btn:hover {
+    border-bottom: rgb(41, 219, 41) solid 1px;
+}

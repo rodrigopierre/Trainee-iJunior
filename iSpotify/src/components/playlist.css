@@ -1,0 +1,185 @@
+body{
+    background-color: black;
+}
+
+.main-playlist {
+    display: flex;
+    flex: 1;
+}
+.main-page-right {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#17A6E4, #022430, #000);
+    width: 100%;
+    height: 100%;
+    margin-left: 200px;
+}
+
+
+/* parte de cima da playlist */
+
+.playlist-top {
+    width: 86%;
+    height: 200px;
+    margin-top: 130px;
+    display: flex;
+}
+.img-container {
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+}
+.playlist-title {
+    margin-top: 80px;
+}
+.playlist-title p {
+    font-size: 0.8rem;
+    margin: 0;
+    margin-top: 6px;
+    letter-spacing: 1px;
+}
+.playlist-title h1 {
+    margin: 0;
+    margin-top: 6px;
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+    margin-left: -3px;
+}
+.playlist-title-bottom {
+    display: flex;
+}
+.playlist-title-bottom h2 {
+    color: #8d93a3;
+    margin: 7px 0 0 10px;
+    font-size: 0.8rem;
+}
+.img-playlist {
+    width: 100%;
+}
+
+
+/* Parte do meio da playlist */
+
+.playlist-middle {
+    width: 86%;
+    height: 40px;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.play-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(91, 212, 91);
+    cursor: pointer;
+}
+/* styles/mainpage.css */
+.play-btn {
+    border: none;
+    background-color: #1DB954;
+    color: rgb(33, 59, 94);
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.play-btn .material-icons {
+    font-size: 30px;
+    margin-left: 0px;
+}
+
+.play-btn:hover {
+    background-color: #1ed760;
+}
+
+.icon-btn {
+    border: none;
+    background: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon-btn .material-icons-outlined {
+    font-size: 27px;
+    margin-right: -15px;
+}
+
+.icon-btn .material-symbols-outlined {
+    font-size: 26px;
+    margin-right: -15px;
+}
+.icon-btn:hover .material-icons-outlined {
+    color: #1DB954;
+}
+.icon-btn:hover .material-symbols-outlined {
+    color: #1DB954;
+}
+
+
+/* Parte de baixo da playlist */
+
+.playlist-bottom {
+    height: 100%;
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+.playlist-bottom-title {
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #bbb;
+}
+.playlist-bottom-title h1{
+    font-size: 0.7rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-left: 8px;
+    color: white;
+    margin-top: 20px;
+    width: 60%;
+}
+.playlist-bottom-title h2{
+    font-size: 0.7rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    width: 36%;
+}
+.class-temporaria {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 800px){
+    .main-page-right {
+        margin-left: 25vw;
+    }
+}
+
+.playlist-bottom-title span{
+    font-size: 1.3rem;
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    font-weight: 0;
+}

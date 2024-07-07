@@ -1,0 +1,115 @@
+.liked-musics {
+    display: flex;
+}
+.liked-musics-right {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#3929a7, #11084e, #000);
+    width: 100%;
+    height: 100%;
+    margin-left: 200px;
+}
+
+
+/* parte de cima da playlist */
+
+.liked-top {
+    width: 86%;
+    height: 200px;
+    margin-top: 130px;
+    display: flex;
+}
+.img-liked {
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+}
+.liked-title {
+    margin-top: 80px;
+}
+.liked-title h1 {
+    margin: 0;
+    margin-top: 6px;
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+}
+.img-lkd {
+    width: 100%;
+}
+
+
+/* Parte do meio da playlist */
+
+.liked-middle {
+    width: 86%;
+    height: 40px;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+
+/* Parte de baixo da playlist */
+
+.liked-bottom {
+    height: 100%;
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+.liked-bottom-title {
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #bbb;
+    margin-top: 3px;
+    margin-left: -1px;
+}
+.liked-bottom-title h1{
+    font-size: 0.7rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-left: 8px;
+    color: white;
+    margin-top: 17px;
+    width: 60%;
+    margin-bottom: 7px;
+}
+.liked-bottom-title h2{
+    font-size: 0.7rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+    width: 36%;
+}
+.class-temporaria-liked {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.liked-bottom-title span{
+    font-size: 1rem;
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+}   
+
+
+
+
+@media (max-width: 800px){
+    .liked-musics-right {
+        margin-left: 25vw;
+    }
+}

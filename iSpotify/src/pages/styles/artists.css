@@ -1,0 +1,30 @@
+.artists {
+    display: flex;
+}
+.artists-right {
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+    width: 100%;
+    margin-left: 200px;
+    height: 100vh;
+}
+.artists-right h1 {
+    margin-top: 70px;
+    margin-left: 7vw;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+.artists-container {
+    height: 220px;
+    width: 86%;
+    margin-left: 8%;
+    display: flex;
+}
+
+
+@media (max-width: 800px){
+    .artists-right {
+        margin-left: 25vw;
+    }
+}
